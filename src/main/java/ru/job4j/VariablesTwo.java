@@ -4,7 +4,7 @@ public class VariablesTwo {
     public static void main(String[] agrs) {
         byte age = 18;
         System.out.println(age);
-        char gerder = 'M';
+        char gerder = 'Ж';
         System.out.println(gerder);
         float height = 1.86F;
         System.out.println(height);
