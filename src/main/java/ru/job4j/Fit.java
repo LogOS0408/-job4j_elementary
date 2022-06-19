@@ -18,7 +18,6 @@ public class Fit {
         short womanheight = 175;
         double woman = Fit.womanWeight(womanheight);
         System.out.println("Woman 175 is " + woman);
+
     }
-
-
 }
