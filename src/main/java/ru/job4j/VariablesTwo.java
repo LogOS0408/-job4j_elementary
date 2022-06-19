@@ -10,9 +10,9 @@ public class VariablesTwo {
         System.out.println(height);
         short brick = 10400;
         System.out.println(brick);
-        int bacteria = 100000000;
+        double bacteria = 1.325E+27;
         System.out.println(bacteria);
-        long neptune = 4500000000L;
+        double neptune = 1.325E+27;
         System.out.println(neptune);
         boolean greencard = true;
         System.out.println(greencard);
