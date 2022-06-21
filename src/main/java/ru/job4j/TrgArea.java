@@ -1,4 +1,4 @@
-package ru.job4j.Сondition;
+package ru.job4j;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {

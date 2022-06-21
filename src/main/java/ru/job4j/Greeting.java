@@ -1,4 +1,4 @@
-package ru.job4j.Сondition;
+package ru.job4j;
 
 public class Greeting {
     public static void main(String[] args) {

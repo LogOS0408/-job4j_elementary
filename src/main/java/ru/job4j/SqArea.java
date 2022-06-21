@@ -1,4 +1,4 @@
-package ru.job4j.Сondition;
+package ru.job4j;
 
 public class SqArea {
     public static double square(double p, double k) {
@@ -9,7 +9,7 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        double rez = SqArea.square(6,2);
+        double rez = SqArea.square(6, 2);
         System.out.println("Square is " + rez);
     }
 }
