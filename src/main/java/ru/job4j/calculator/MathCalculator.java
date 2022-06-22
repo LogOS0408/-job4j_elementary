@@ -28,7 +28,6 @@ public class MathCalculator {
         return i;
     }
 
-
     public static void main(String[] args) {
         System.out.println("Результат расчётов вычитания равен: " + subtraction(20, 10));
         System.out.println("Результат расчётов деления равен: " + dividing(20, 10));
