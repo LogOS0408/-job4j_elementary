@@ -21,7 +21,6 @@ public class ConverterTest extends TestCase {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
-
     public void testMain() {
     }
 }
