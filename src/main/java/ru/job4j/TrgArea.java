@@ -10,6 +10,6 @@ public class TrgArea {
 
     public static void main(String[] args) {
         double rez = TrgArea.area(2, 2, 2);
-        System.out.println("Square is " + rez);
+        System.out.println("Square is  " + rez);
     }
 }
