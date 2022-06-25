@@ -20,7 +20,10 @@ public class MathCalculator {
     }
 
     public static double subDivSumMtp(double first, double second) {
-        return sub(first, second) + div(first, second) + sum(first, second) + multiply(first, second);
+        return sub(first, second)
+                + div(first, second)
+                + sum(first, second)
+                + multiply(first, second);
     }
 
     public static void main(String[] args) {
