@@ -1,7 +1,7 @@
 package ru.job4j;
 
 public class VariablesTwo {
-    public static void main(String[] agrs) {
+    public static void main(String[] args) {
         byte age = 18;
         System.out.println(age);
         char gerder = 'Ж';
