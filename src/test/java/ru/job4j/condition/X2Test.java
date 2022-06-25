@@ -63,7 +63,4 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
 
-    @Test
-    public void main() {
-    }
 }
