@@ -7,7 +7,7 @@ public class Point2 {
     }
 
     public static void main(String[] args) {
-        double rez = Point2.distance(6, 94, 15, 150);
+        double rez = Point2.distance(7, 94, 15, 150);
         System.out.println(rez);
     }
 }
