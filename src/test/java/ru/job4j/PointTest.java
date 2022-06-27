@@ -2,7 +2,7 @@ package ru.job4j;
 
 import org.junit.Test;
 import org.junit.Assert;
-import ru.job4j.condition.Point;
+import ru.job4j.condition.Point2;
 
 public class PointTest {
 
@@ -13,7 +13,7 @@ public class PointTest {
         int x2 = 2;
         int y2 = 0;
         double expected = 2;
-        double out = Point.distance(0, 0, 2, 0);
+        double out = Point2.distance(0, 0, 2, 0);
         Assert.assertEquals(expected, out, 0.01);
     }
 
@@ -24,7 +24,7 @@ public class PointTest {
         int x2 = 8;
         int y2 = 8;
         double expected = 5.83;
-        double out = Point.distance(3, 5, 8, 8);
+        double out = Point2.distance(3, 5, 8, 8);
         Assert.assertEquals(expected, out, 0.01);
     }
 
@@ -35,7 +35,7 @@ public class PointTest {
         int x2 = 9;
         int y2 = 10;
         double expected = 5.09;
-        double out = Point.distance(4, 9, 9, 10);
+        double out = Point2.distance(4, 9, 9, 10);
         Assert.assertEquals(expected, out, 0.01);
     }
 
@@ -46,8 +46,7 @@ public class PointTest {
         int x2 = 15;
         int y2 = 150;
         double expected = 56.71;
-        double out = Point.distance(6, 94, 15, 150);
+        double out = Point2.distance(6, 94, 15, 150);
         Assert.assertEquals(expected, out, 0.01);
     }
-
 }
