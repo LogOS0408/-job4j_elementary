@@ -2,10 +2,11 @@ package ru.job4j;
 
 import junit.framework.TestCase;
 import org.junit.Assert;
+import org.junit.Test;
 import ru.job4j.converter.Converter;
 
-public class ConverterTest extends TestCase {
-
+public class ConverterTest {
+    @Test
     public void whenConvert140RblThen2Euro() {
         float in = 140;
         float expected = 2;
@@ -14,6 +15,7 @@ public class ConverterTest extends TestCase {
         Assert.assertEquals(expected, out, eps);
     }
 
+    @Test
     public void whenConvert180RblThen3Dlr() {
         float in = 180;
         float expected = 3;
@@ -22,6 +24,7 @@ public class ConverterTest extends TestCase {
         Assert.assertEquals(expected, out, eps);
     }
 
+    @Test
     public void testMain() {
     }
 }
