@@ -4,7 +4,6 @@ public class Converter {
     public static float rubleToEuro(float value) {
         float rsl = value / 70;
         return rsl;
-
     }
 
     public static float rubleToDollar(float value) {
@@ -17,7 +16,6 @@ public class Converter {
         System.out.println("140 rubles are " + euro + " euro ");
         float dollar = Converter.rubleToDollar(180);
         System.out.println("180 rubles are " + dollar + " dollar");
-
     }
 
 }
