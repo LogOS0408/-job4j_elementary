@@ -13,10 +13,9 @@ public class MathCalculator {
     }
 
     public static double subAndDiv(double first, double second) {
-        double a = div(first, second);
-        double b = sub(first, second);
-        double c = a + b;
-        return c;
+        double a = div(first, second)
+                 + sub(first, second);
+        return a;
     }
 
     public static double subDivSumMtp(double first, double second) {
