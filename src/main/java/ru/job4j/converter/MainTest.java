@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.converter;
 
 import org.junit.Test;
 import ru.job4j.calculator.Fit;
@@ -12,7 +12,7 @@ public class MainTest {
     public void whenActionThenResult() {
         int excepted = 1;
         int result = 1;
-        assertThat(result, is(excepted));
+        MatcherAssert.assertThat(result, CoreMatchers.is(excepted));
     }
 
     public static class FitTest {
