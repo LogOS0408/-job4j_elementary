@@ -3,6 +3,7 @@ package ru.job4j;
 import org.junit.Test;
 import org.junit.Assert;
 import ru.job4j.condition.Point2;
+import ru.job4j.converter.Converter;
 
 public class PointTest {
 
@@ -48,5 +49,25 @@ public class PointTest {
         double expected = 56.71;
         double out = Point2.distance(6, 94, 15, 150);
         Assert.assertEquals(expected, out, 0.01);
+    }
+
+    public static class ConverterTest {
+        @Test
+        public void whenConvert140RblThen2Euro() {
+            float in = 140;
+            float expected = 2;
+            float out = Converter.rubleToEuro(in);
+            float eps = 0.0001f;
+            Assert.assertEquals(expected, out, eps);
+        }
+
+        @Test
+        public void whenConvert180RblThen3Dlr() {
+            float in = 180;
+            float expected = 3;
+            float out = Converter.rubleToDollar(in);
+            float eps = 0.0001f;
+            Assert.assertEquals(expected, out, eps);
+        }
     }
 }
