@@ -1,8 +1,29 @@
 package ru.job4j.condition;
 
 public class Max {
-    public static int summation(int first, int second) {
-        int result = first + second;
+    public static int comparisonOne(int first, int second) {
+        int result = first > second ? first : second;
         return result;
     }
+
+    public static int comparisonTwo(int first, int second) {
+        int result = first < second ? second : first;
+        return result;
+    }
+
+    public static int equalNumbers(int first, int second) {
+        int result = first == second ? first : second;
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int result = Max.comparisonOne(7, 6);
+        System.out.println(result);
+        result = Max.equalNumbers(6, 6);
+        System.out.println(result);
+        result = Max.comparisonTwo(6, 9);
+        System.out.println(result);
+
+    }
+
 }
