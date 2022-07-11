@@ -24,7 +24,7 @@ public class SwitchWeek {
             case 7:
                 name = "Воскресенье.";
             default:
-                name = "Ошибка ввода данных. Выберите число от 1-го до 7-ми";
+                name = "Ошибка ввода данных. Выберите число от 1-го до 7-ми.";
                 break;
         }
         return name;
@@ -32,6 +32,6 @@ public class SwitchWeek {
     }
 
     public static void main(String[] args) {
-        System.out.println(SwitchWeek.nameOfDay(9));
+        System.out.println(SwitchWeek.nameOfDay(11));
     }
 }
