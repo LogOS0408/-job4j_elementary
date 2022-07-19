@@ -9,11 +9,9 @@ public class Board {
                 } else {
                     System.out.print(" ");
                 }
-
             }
             System.out.println();
         }
-
     }
 
     public static void main(String[] args) {
