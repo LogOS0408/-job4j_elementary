@@ -6,8 +6,8 @@ public class Loop {
         for (int i = 0; i < task.length; i++) {
             task[i] = i * 2 + 3;
         }
-        for (int i = 0; i < task.length; i++) {
-            System.out.println(task[i]);
+        for (int i : task) {
+            System.out.println(i);
         }
     }
 }
