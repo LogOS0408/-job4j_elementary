@@ -16,6 +16,6 @@ public class ModWithLoop {
     }
 
     public static void main(String[] args) {
-        System.out.println(mod2(7, 8));
+        System.out.println(mod2(8, 3));
     }
 }
