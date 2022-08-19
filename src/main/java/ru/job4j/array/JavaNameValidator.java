@@ -2,19 +2,23 @@ package ru.job4j.array;
 
 public class JavaNameValidator {
     public static boolean isNameValid(String name) {
+        boolean result = false;
         if (name.isEmpty() || isUpperLatinLetter(name.codePointAt(0))
                 || isSpecialSymbol(name.codePointAt(0))
                 || isFrom0To10(name.codePointAt(0))) {
-            return false;
+            return result;
         }
         int code = 0;
         for (int i = 1; i < name.length(); i++) {
             code = name.codePointAt(i);
+            if (isLowerLatinLetter(code)
+                    || isUpperLatinLetter(code)
+                    || isSpecialSymbol(code)
+                    || isFrom0To10(code)) {
+                return true;
+            }
         }
-        return isLowerLatinLetter(code)
-                || isUpperLatinLetter(code)
-                || isSpecialSymbol(code)
-                || isFrom0To10(code);
+        return result;
     }
 
     public static boolean isSpecialSymbol(int code) {
