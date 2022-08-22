@@ -10,10 +10,10 @@ public class JavaNameValidator {
         for (int i = 1; i < name.length(); i++) {
             int code;
             code = name.codePointAt(i);
-            if (!(isLowerLatinLetter(code)
-                    || isUpperLatinLetter(code)
-                    || isSpecialSymbol(code)
-                    || isDigit(code))) {
+            if (!isLowerLatinLetter(code)
+                    && !isUpperLatinLetter(code)
+                    && !isSpecialSymbol(code)
+                    && !isDigit(code)) {
                 return false;
             }
         }
@@ -31,5 +31,4 @@ public class JavaNameValidator {
     public static boolean isLowerLatinLetter(int code) {
         return code >= 97 && code <= 122;
     }
-
 }
