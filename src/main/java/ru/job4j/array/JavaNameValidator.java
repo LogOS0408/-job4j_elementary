@@ -1,5 +1,7 @@
 package ru.job4j.array;
 
+import static java.lang.Character.isDigit;
+
 public class JavaNameValidator {
     public static boolean isNameValid(String name) {
         if (name.isEmpty() || !isLowerLatinLetter(name.codePointAt(0))) {
@@ -8,7 +10,10 @@ public class JavaNameValidator {
         for (int i = 1; i < name.length(); i++) {
             int code;
             code = name.codePointAt(i);
-            if (!((isLowerLatinLetter(code) || isUpperLatinLetter(code)) || isSpecialSymbol(code) || isFrom0To10(code))) {
+            if (!(isLowerLatinLetter(code)
+                    || isUpperLatinLetter(code)
+                    || isSpecialSymbol(code)
+                    || isDigit(code))) {
                 return false;
             }
         }
@@ -27,7 +32,4 @@ public class JavaNameValidator {
         return code >= 97 && code <= 122;
     }
 
-    public static boolean isFrom0To10(int code) {
-        return code >= 48 && code <= 57;
-    }
 }
