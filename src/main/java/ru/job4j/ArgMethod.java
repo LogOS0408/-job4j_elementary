@@ -1,5 +1,4 @@
 package ru.job4j;
-
 public class ArgMethod {
     public static void hello(String name, int age) {
         System.out.println("Hello," + name + "age = " + age);
@@ -14,5 +13,4 @@ public class ArgMethod {
         ArgMethod.hello(name, age);
         ArgMethod.hello(name, age);
     }
-
 }

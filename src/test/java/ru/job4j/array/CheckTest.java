@@ -1,9 +1,6 @@
 package ru.job4j.array;
-
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
-
 public class CheckTest {
 
     @Test
@@ -33,5 +30,4 @@ public class CheckTest {
         boolean result = Check.mono(data);
         assertThat(result).isFalse();
     }
-
 }

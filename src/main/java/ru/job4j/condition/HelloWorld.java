@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class HelloWorld {
     public static String checkNumber(int number) {
         if (number % 3 == 0 && number % 5 == 0) {

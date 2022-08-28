@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 public class Print0ToN {
 
     public static void out(int n, int m) {

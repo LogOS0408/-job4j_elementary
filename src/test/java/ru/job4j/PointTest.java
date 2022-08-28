@@ -1,12 +1,9 @@
 package ru.job4j;
-
 import org.junit.Test;
 import org.junit.Assert;
 import ru.job4j.condition.Point2;
 import ru.job4j.converter.Converter;
-
 public class PointTest {
-
     @Test
     public void when0020Then2() {
         int x1 = 0;

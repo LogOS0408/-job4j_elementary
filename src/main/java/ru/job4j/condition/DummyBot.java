@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class DummyBot {
     public static String answer(String question) {
         String rls = "Это ставит меня в тупик. Задайте другой вопрос.";
@@ -18,6 +17,5 @@ public class DummyBot {
         System.out.println(rls);
         rls = DummyBot.answer("Сколько будет 2+2 ?");
         System.out.println(rls);
-
     }
 }

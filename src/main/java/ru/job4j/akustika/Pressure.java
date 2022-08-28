@@ -1,5 +1,4 @@
 package ru.job4j.akustika;
-
 public class Pressure {
     public static double pressureOne(double a) {
         double first = a / 4;
@@ -20,8 +19,5 @@ public class Pressure {
         System.out.println("Давление на третьей полке = " + rez3);
         double rez4 = 20;
         System.out.println("Давление на третьей полке = " + rez4);
-
     }
-
 }
-

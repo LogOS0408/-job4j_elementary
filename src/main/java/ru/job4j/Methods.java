@@ -1,5 +1,4 @@
 package ru.job4j;
-
 public class Methods {
     public static void plus(int first, int second) {
         int result = first + second;

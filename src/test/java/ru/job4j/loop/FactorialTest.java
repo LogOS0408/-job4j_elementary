@@ -1,10 +1,7 @@
 package ru.job4j.loop;
-
 import org.junit.Test;
 import org.junit.Assert;
-
 public class FactorialTest {
-
     @Test
     public void whenN5ThenFactorial120() {
         int n = 5;

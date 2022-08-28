@@ -1,12 +1,10 @@
-package ru.job4j.condition;
-
+package condition;
 import org.junit.Test;
 import org.junit.Assert;
+import ru.job4j.condition.X2;
 
 import static org.junit.Assert.*;
-
 public class X2Test {
-
     @Test
     public void whenA10B0C0X2Then40() {
         int a = 10;
@@ -27,7 +25,6 @@ public class X2Test {
         int expected = 3;
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
-
     }
 
     @Test
@@ -62,5 +59,4 @@ public class X2Test {
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
-
 }

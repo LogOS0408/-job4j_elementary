@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 public class SweetPrise {
     public static void out(int price) {
         int sum = 0;

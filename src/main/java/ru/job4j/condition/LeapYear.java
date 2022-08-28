@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class LeapYear {
     @SuppressWarnings("checkstyle:SimplifyBooleanReturn")
     public static boolean checkYear(int year) {

@@ -1,5 +1,4 @@
 package ru.job4j.tasks;
-
 public class ForAmp {
     public static boolean experimentone(char[] array) {
         for (int i = 0; i < array.length; i++) {

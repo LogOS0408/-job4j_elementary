@@ -1,11 +1,7 @@
 package ru.job4j.array;
-
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
-
 public class TurnTest {
-
     @Test
     public void when1234Then4321() {
         int[] input = new int[]{1, 2, 3, 4};

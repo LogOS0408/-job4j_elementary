@@ -1,10 +1,9 @@
 package ru.job4j;
-
 public class VariablesTwo {
     public static void main(String[] args) {
         byte age = 18;
         System.out.println(age);
-        char gerder = 'Æ';
+        char gerder = 'Ðœ';
         System.out.println(gerder);
         float height = 1.86F;
         System.out.println(height);
@@ -18,6 +17,5 @@ public class VariablesTwo {
         System.out.println(greencard);
         long size = 8589934592L;
         System.out.println(size);
-
     }
 }

@@ -1,10 +1,9 @@
-package ru.job4j.condition;
-
+package condition;
 import org.junit.Test;
 import org.junit.Assert;
+import ru.job4j.condition.ChessBoard;
 
 public class ChessBoardTest {
-
     @Test
     public void wayIs5() {
         int x1 = 6;

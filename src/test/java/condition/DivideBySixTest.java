@@ -1,10 +1,9 @@
-package ru.job4j.condition;
-
+package condition;
 import org.junit.Test;
 import org.junit.Assert;
+import ru.job4j.condition.DivideBySix;
 
 public class DivideBySixTest {
-
     @Test
     public void whenNumberDivideBe6() {
         int in = 24;

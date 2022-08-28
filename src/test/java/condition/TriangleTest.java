@@ -1,10 +1,9 @@
-package ru.job4j.condition;
-
+package condition;
 import org.junit.Test;
 import org.junit.Assert;
+import ru.job4j.condition.Triangle;
 
 public class TriangleTest {
-
     @Test
     public void whenExist() {
         int ab = 2;

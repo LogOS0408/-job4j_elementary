@@ -1,10 +1,7 @@
 package ru.job4j.converter;
-
 import org.junit.Test;
 import org.junit.Assert;
-
 public class ConverterTest {
-
     @Test
     public void whenConvert140RblThen2Euro() {
         float in = 140;

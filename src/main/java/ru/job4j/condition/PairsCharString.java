@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class PairsCharString {
     public static void main(String[] args) {
         System.out.println(check("s", "s"));

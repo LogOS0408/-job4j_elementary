@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class DivideBySix {
     public static String checkNumber(int number) {
         String rsl;
@@ -19,4 +18,3 @@ public class DivideBySix {
         System.out.println(DivideBySix.checkNumber(24));
     }
 }
-

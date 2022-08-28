@@ -1,10 +1,9 @@
-package ru.job4j.condition;
-
+package condition;
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.condition.DummyBot;
 
 public class DummyBotTest {
-
     @Test
     public void whenGreetBot() {
         String in = "Привет, Бот.";

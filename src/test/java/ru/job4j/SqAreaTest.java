@@ -1,11 +1,8 @@
 package ru.job4j;
-
 import org.junit.Test;
 import org.junit.Assert;
 import ru.job4j.condition.SqArea;
-
 public class SqAreaTest {
-
     @Test
     public void whenP6K2ThenSquare2() {
         double k = 2;

@@ -1,10 +1,9 @@
-package ru.job4j.condition;
-
+package condition;
 import org.junit.Test;
 import org.junit.Assert;
+import ru.job4j.condition.Max;
 
 public class MaxTest {
-
     @Test
     public void wenFirst7Second3Then7() {
         int first = 7;

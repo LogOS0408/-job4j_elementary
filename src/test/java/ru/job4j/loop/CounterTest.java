@@ -1,11 +1,8 @@
 package ru.job4j.loop;
-
 import org.junit.jupiter.api.Test;
 import org.junit.Assert;
 import static org.junit.jupiter.api.Assertions.*;
-
 class CounterTest {
-
     @Test
     public void whenSumEvenNumbersFromOneToTenThenThirty() {
         int start = 1;

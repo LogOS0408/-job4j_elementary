@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 public class SkipNegative {
     public static int[][] skip(int[][] array) {
         for (int[] row : array) {
@@ -12,4 +11,3 @@ public class SkipNegative {
         return  array;
     }
 }
-

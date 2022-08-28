@@ -1,7 +1,5 @@
 package ru.job4j.calculator;
-
 import static ru.job4j.math.MathFunction.*;
-
 public class MathCalculator {
     public static double subtraction(double first, double second) {
         return sub(first, second);

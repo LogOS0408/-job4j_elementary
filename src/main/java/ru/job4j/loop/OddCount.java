@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 public class OddCount {
     public static int count(int a, int b) {
         int counts = 0;

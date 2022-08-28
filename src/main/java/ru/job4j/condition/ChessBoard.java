@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class ChessBoard {
     private static boolean isValid(int coordinate) {
         return coordinate >= 0 && coordinate <= 7;
@@ -14,5 +13,4 @@ public class ChessBoard {
         }
         return rls;
     }
-
 }

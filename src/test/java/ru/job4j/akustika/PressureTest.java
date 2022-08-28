@@ -1,11 +1,8 @@
 package ru.job4j.akustika;
-
 import org.junit.Test;
 import org.junit.Assert;
 import static org.junit.Assert.*;
-
 public class PressureTest {
-
     @Test
     public void wenA16Then4() {
         double in = 16;

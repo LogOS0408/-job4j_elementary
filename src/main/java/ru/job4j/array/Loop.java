@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 public class Loop {
     public static void main(String[] args) {
         int[] tasks = new int[5];

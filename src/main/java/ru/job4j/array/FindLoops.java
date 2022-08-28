@@ -1,5 +1,4 @@
 package ru.job4j.array;
-
 public class FindLoops {
     public static int indexOf(int[] data, int el) {
         int rls = -1;
@@ -31,4 +30,3 @@ public class FindLoops {
         System.out.println(indexInRange(arr, el, start, finish));
     }
 }
-

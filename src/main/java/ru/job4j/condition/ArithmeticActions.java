@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 public class ArithmeticActions {
     public static String selectActions(int left, int right, int rsl) {
         if (left - right == rsl) {
