@@ -25,11 +25,11 @@ class PointTest {
     }
 
     @Test
-    public void when130013Then18() {
+    public void when130013Then18Dot38() {
         Point a = new Point(13, 0);
         Point b = new Point(0, 13);
         a.distance(b);
-        double expected = 18.384776310850235;
-        assertThat(a.distance(b)).isEqualTo(expected);
+        double expected = 18.38;
+        assertThat(a.distance(b)).isEqualTo(expected, offset(0.01));
     }
 }
