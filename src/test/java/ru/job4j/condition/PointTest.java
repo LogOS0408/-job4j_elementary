@@ -32,4 +32,13 @@ class PointTest {
         double expected = 18.38;
         assertThat(a.distance(b)).isEqualTo(expected, offset(0.01));
     }
+
+    @Test
+    public void when1305and0137Then18Dot49() {
+        Point a = new Point(13, 0, 5);
+        Point b = new Point(0, 13, 7);
+        a.distance3d(b);
+        double expected = 18.49;
+        assertThat(a.distance3d(b)).isEqualTo(expected, offset(0.01));
+    }
 }
