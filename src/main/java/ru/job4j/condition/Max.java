@@ -1,16 +1,16 @@
 package ru.job4j.condition;
 
 public class Max {
-    public static int comparisonOne(int first, int second) {
+    public static int max(int first, int second) {
         return first >= second ? first : second;
     }
 
     public static int max(int first, int second, int third) {
-          return comparisonOne(first, comparisonOne(second, third));
+          return max(first, max(second, third));
     }
 
     public static int max(int first, int second, int third, int fourth) {
-        return comparisonOne(first, max(second, third, fourth));
+        return max(first, max(second, third, fourth));
     }
 
     public static void main(String[] args) {
