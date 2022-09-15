@@ -9,7 +9,7 @@ public class MaxTest {
     public void wenFirst7Second3Then7() {
         int first = 7;
         int second = 3;
-        int result = Max.comparisonOne(first, second);
+        int result = Max.max(first, second);
         int expected = 7;
         Assert.assertEquals(result, expected);
     }
@@ -18,7 +18,7 @@ public class MaxTest {
     public void wenFirst3Second7Then7() {
         int first = 3;
         int second = 7;
-        int result = Max.comparisonOne(first, second);
+        int result = Max.max(first, second);
         int expected = 7;
         Assert.assertEquals(result, expected);
     }
@@ -27,7 +27,7 @@ public class MaxTest {
     public void wenFirst7Second7Then7() {
         int first = 7;
         int second = 7;
-        int result = Max.comparisonOne(first, second);
+        int result = Max.max(first, second);
         int expected = 7;
         Assert.assertEquals(result, expected);
     }
